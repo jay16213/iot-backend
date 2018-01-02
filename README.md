@@ -1,5 +1,14 @@
 # 2017 IOT Weather underground backend
-## Data field
+
+## Class Weather
+### Import
+- `from weather import Weather`
+
+### Constructor
+- `varName = Weather(location_str)`
+- the constructor will call getCurrentConditions()
+
+### Data field
 - current condition
     - location: string
     - condition: string
@@ -25,12 +34,21 @@
         - icon_url: string
     - use fore_week[index][key] to get value. e.x fore_week[0]['temp_high']
 
-## Constructor
-- varName = Weather(location_str)
-
-## Method
+### Method
 - getCurrentConditions(): update the current weather condition
 
 - getHourForecast(hour: int): get the forecast info from api, should give parameter 'hour' to get the forecast at 'hour' o'clock
 
 - getWeekForecast(): get 10 days forecast info
+
+## Class Distance
+### Import
+- `from distance import Distance`
+
+### Constructor
+- `varName = Distance(origin, destination)`
+
+### Data field
+- distance: string
+- duration: string
+
