@@ -25,6 +25,7 @@
 ### Data field
 - current condition
     - location: string
+    - location_url: string
     - condition: string
     - temp_c: float
     - humidity: string
