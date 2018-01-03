@@ -33,6 +33,7 @@
     - precipm: float
     - icon: string
     - icon32_url: string
+    - icon64_url: string
     - icon128_url: string
 
 - after calling getHourForecast, you will have the following data
@@ -42,6 +43,7 @@
     - poprec: float
     - icon: string
     - hour32_icon_url: string
+    - hour64_icon_url: string
     - hour128_icon_url: string
 
 - after calling getHourlyForecast, you will have the following data
@@ -53,6 +55,7 @@
         - poprec: float
         - icon: string
         - icon32_url: string
+        - icon64_url: string
         - icon128_url: string
     - use fore_hourly[index][key] to get value. e.x fore_week[0]['temp']
 
@@ -65,6 +68,7 @@
         - poprec: float
         - icon: string
         - icon32_url: string
+        - icon64_url: string
         - icon128_url: string
     - use fore_week[index][key] to get value. e.x fore_week[0]['temp_high']
 
