@@ -29,6 +29,7 @@
     - temp_c: float
     - humidity: string
     - wind_kph: float
+    - precipm: float
     - icon: string
     - icon_url: string
 
@@ -36,6 +37,7 @@
     - hour_condition: string
     - hour_temp: string
     - hour_humidity: string
+    - poprec: float
     - icon: string
     - hour_icon_url: string
 
@@ -44,6 +46,7 @@
         - temp_high: float
         - temp_low: float
         - conditions: string
+        - poprec: float
         - icon: string
         - icon_url: string
     - use fore_week[index][key] to get value. e.x fore_week[0]['temp_high']
