@@ -1,5 +1,19 @@
 # 2017 IOT Weather underground backend
 
+## Location
+- Keelung
+- Taipei
+- Yilan
+- Hsin-chu
+- Miao-li
+- Taichung
+- Chang-hua
+- Nantou
+- Yun-lin
+- Tainan
+- Kao-hsiung
+- Hualien
+
 ## Class Weather
 ### Import
 - `from weather import Weather`
