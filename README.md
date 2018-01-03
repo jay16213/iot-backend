@@ -31,7 +31,8 @@
     - wind_kph: float
     - precipm: float
     - icon: string
-    - icon_url: string
+    - icon32_url: string
+    - icon128_url: string
 
 - after calling getHourForecast, you will have the following data
     - hour_condition: string
@@ -39,16 +40,19 @@
     - hour_humidity: string
     - poprec: float
     - icon: string
-    - hour_icon_url: string
+    - hour32_icon_url: string
+    - hour128_icon_url: string
 
 - after calling getWeekForecast, you will have the following data
     - fore_week: list of directory
+        - fcttext: string
         - temp_high: float
         - temp_low: float
         - conditions: string
         - poprec: float
         - icon: string
-        - icon_url: string
+        - icon32_url: string
+        - icon128_url: string
     - use fore_week[index][key] to get value. e.x fore_week[0]['temp_high']
 
 ### Method
