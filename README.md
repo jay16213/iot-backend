@@ -93,7 +93,9 @@
 
 ### Data field
 - distance: string
-- duration: string
+- duration_text: string
+- duration_hour: float
+    - if less than 1 hr, use 1 hr. Otherwise do rounding
 - if mode is 'transit', then you will get the additional field
     - currency: string
         - e.x "TWD"
