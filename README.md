@@ -96,7 +96,8 @@
 - duration_text: string
 - duration_hour: float
     - if less than 1 hr, use 1 hr. Otherwise do rounding
-- if mode is 'transit', then you will get the additional field
+- if mode is 'transit'
+    - if has fare => has_fare = True, else has_fare = False
     - currency: string
         - e.x "TWD"
     - fare_text: string
